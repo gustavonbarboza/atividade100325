@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha de Inscrição</title>
+</head>
+<body>
+  <center>
+    <h1>Ficha de Inscrição</h1>
+    
+    <form>
+      <table border="1">
+        <tr>
+          <td>Nome do candidato:</td>
+          <td colspan="3"><input type="text" name="nome"></td>
+        </tr>
+        
+        <tr>
+          <td>Endereço:</td>
+          <td colspan="3"><input type="text" name="endereco"></td>
+        </tr>
+        
+        <tr>
+          <td>CEP:</td>
+          <td><input type="text" name="cep"></td>
+          <td>Cidade:</td>
+          <td>
+            <select name="cidade">
+              <option>-- Cidade --</option>
+            </select>
+          </td>
+        </tr>
+        
+        <tr>
+          <td></td>
+          <td></td>
+          <td>UF:</td>
+          <td>
+            <select name="uf">
+              <option>-- UF --</option>
+            </select>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Telefone:</td>
+          <td colspan="3">
+            <input type="text" name="telefone1"> 
+            <input type="text" name="telefone2"> 
+            <input type="text" name="telefone3">
+          </td>
+        </tr>
+        
+        <tr>
+          <td>RG:</td>
+          <td><input type="text" name="rg"></td>
+          <td>CPF:</td>
+          <td><input type="text" name="cpf"></td>
+        </tr>
+        
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Sexo:</td>
+          <td>
+            <input type="radio" name="sexo" value="masculino"> Mas.
+            <input type="radio" name="sexo" value="feminino"> Fem.
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Escolaridade:</td>
+          <td>
+            <select name="escolaridade">
+              <option>-- Selecione --</option>
+            </select>
+          </td>
+          <td>Email:</td>
+          <td><input type="text" name="email"></td>
+        </tr>
+        
+        <tr>
+          <td>Curso:</td>
+          <td>
+            <select name="curso">
+              <option>-- Selecione --</option>
+            </select>
+          </td>
+          <td>Senha de acompanhamento:</td>
+          <td><input type="text" name="senha"></td>
+        </tr>
+        
+        <tr>
+          <td colspan="4" align="center">
+            <br>
+            <input type="submit" value="CADASTRAR">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </center>
+</body>
+</html>
